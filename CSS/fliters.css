@@ -1,0 +1,78 @@
+/*filters*/
+#filter-section {
+	display: flex;
+	margin-left: 48px;
+	margin-top: 30px;
+}
+
+#filter-section span {
+	font-weight: bold;
+}
+
+.filter-buttons {
+	position: relative;
+	bottom: 10px;
+	margin-left: 20px;
+}
+
+.filter-button {
+	font-family: 'Raleway', sans-serif;
+	border-radius: 20px;
+	border: 2px solid #f2f2f2;
+	background-color: white;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#filter-section .inline-heading{
+	position: relative;
+	bottom:10px;
+}
+
+.filtericon {
+	font-size: 15px;
+}
+
+.filtericonpet {
+	font-size: 15px;
+}
+
+.filter-button:hover {
+	box-shadow: inset 300px 0 0 0 #0065fc;
+	color: white;
+
+}
+
+.filter-buttons span {
+	position: relative;
+	right: 10px;
+	bottom: 2px;
+}
+
+.filter-buttons .filtericon {
+	background: #DEEBFF;
+	padding: 12px;
+	border-radius: 50%;
+	position: relative;
+	right: 23px;
+	bottom: 2px;
+	color: #0065fc;
+	font-size: 15px;
+}
+
+.filter-buttons .filtericonpet {
+	background: #DEEBFF;
+	padding: 12px;
+	border-radius: 50%;
+	position: relative;
+	right: 23px;
+	bottom: 2px;
+	font-size: 15px;
+	color: #0065fc;
+}
+
+/*filters*/

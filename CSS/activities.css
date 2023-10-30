@@ -1,0 +1,192 @@
+.inner-column img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+#activitiessection span {
+	display: block;
+	margin-left: 33px;
+	font-weight: 900;
+	margin-top: 30px;
+
+}
+
+.activitiesheader{
+	margin-left: 20px;
+}
+
+.activitiescards {
+	display: flex;
+	flex-direction: row;
+	margin-left: 33px;
+	padding-right: 70px;
+	margin-top: 30px;
+	gap: 40px;
+}
+
+
+.column {
+	flex-basis: 50%;
+	width: 100%;
+}
+
+
+#activitiessection {
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 70px;
+	padding-bottom: 50px;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 50%;
+	gap: 30px;
+	height: 417px;
+
+}
+
+.inner-column {
+	position: relative;
+	flex-basis: 50%;
+	overflow: hidden;
+	gap: 20px;
+	border-radius: 20px;
+	
+
+
+}
+
+
+.left-column {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+
+.text {
+	position: absolute;
+	bottom: 15px;
+	left: -20px;
+	width: 100%;
+	font-size: 12px;
+	font-weight: 900;
+
+}
+
+.insidecolumn {
+	position: relative;
+
+	border-radius: 20px;
+
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.inner-column.right-1.inner-column {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+
+}
+
+.insidecolumn.right-column {
+	flex-basis: 90%;
+
+}
+
+.insidecolumn.right-column img {
+	width: 100%;
+
+}
+
+.inner-column.right-2.inner-column {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left-column .wider-column {
+	flex-basis: 60%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.left-column .narrower-column {
+	flex-basis: 40%;
+	position: relative;
+	overflow: hidden;
+	
+
+}
+
+
+.left-side img {
+	height: 90%;
+}
+
+.right-side img {
+	height: 90%;
+}
+
+.left-column .wider-column img {
+	height: 80%;
+}
+
+.left-column .narrower-column img {
+	height: 80%;
+}
+.insidecolumn.right img {
+	height: 80%;
+}
+.right {
+	height: 100%;
+	overflow: hidden;
+}
+
+.right img {
+	height: 77%;
+
+}
+
+.right-1 {
+	padding: 5px;
+}
+
+.right-2 {
+	padding: 5px;
+}
+
+.left-side {
+	border-radius: 20px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position: relative;
+	top:5px;
+}
+
+.right-side {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position: relative;
+	top:5px;
+}
+
+.insidecolumn.wider-column {
+	border-radius: 20px;
+}

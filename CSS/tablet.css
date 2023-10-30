@@ -1,0 +1,156 @@
+@media (min-width: 768px) and (max-width: 991px) {
+	#activitiessection {
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 30px;
+		padding-right: 70px;
+
+	}
+
+	.insidecolumn.wider-column {
+		flex-basis: 170px;
+	}
+
+	.left-side {
+		flex-basis: 170px;
+
+	}
+
+
+	.row {
+		height: 100%;
+		width: 50%;
+		margin: auto;
+		margin-left: 20px;
+	}
+
+    
+
+	#filter-section{
+		margin-left: 10px;
+	}
+    
+	#user-message .message {
+		width: 50%;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+
+	.item {
+		margin: 0;
+	}
+
+	.item.item2 {
+		flex-basis: 500px;
+	}
+
+	.item.item2 .popularcard {
+		margin: 0 auto;
+		/* Center the cards horizontally */
+		margin-top: 20px;
+	}
+
+	.show-more-link {
+		margin-bottom: 20px;
+	}
+
+	.activitiescards {
+		flex-direction: column;
+	}
+
+	.card {
+		flex-basis: calc(33.33% - 40px);
+		margin: 10px;
+		margin-top: 30px;
+		position: relative;
+		left: 15px;
+	}
+
+	.popularcard {
+		width: 80%;
+	}
+
+	.left-column {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.right-column {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.inner-column img {
+		width: 100%;
+		height: 90%;
+		object-fit: cover;
+	}
+
+	.row {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.inner-column {
+		overflow: hidden;
+	}
+
+	.left-side {
+		flex-basis: 170px;
+
+	}
+
+	.left-side img {
+		height: 80%;
+	}
+
+	.right-side {
+		flex-basis: 170px;
+	}
+
+	.insidecolumn.right {
+		flex-basis: 170px;
+	}
+
+	.insidecolumn.narrower-column {
+		flex-basis: 170px;
+	}
+
+	.insidecolumn.wider-column {
+		flex-basis: 170px;
+
+	}
+
+	.right-side img {
+		height: 70%;
+	}
+
+	.inner-column img {
+		height: 70%;
+	}
+
+	.right-side img {
+		height: 70%;
+
+	}
+
+	.insidecolumn.wider-column img {
+		height: 70%;
+	}
+
+	.insidecolumn.narrower-column img {
+		height: 70%;
+	}
+
+	.insidecolumn.right img {
+		height: 70%;
+	}
+
+	.text {
+		bottom: 18px;
+	}
+}

@@ -1,0 +1,290 @@
+/*accomodationsection*/
+
+.container {
+	display: flex;
+	padding: 35px;
+	gap: 33px;
+	flex-direction: row;
+	margin-top: -22px;
+}
+
+.item {
+	height: 525px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.item1 {
+
+	display: flex;
+	/* Make item1 a flex container */
+	flex-basis: 65%;
+	/* set the initial width of the first item */
+	border-radius: 15px 15px 15px 15px;
+}
+
+.item2 {
+	flex-basis: 35%;
+	/* set the initial width of the second item */
+	margin-right: 30px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.item1 .title {
+	margin-top: 35px;
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.item1 {
+	flex-direction: column;
+}
+
+.accommodationcards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: -50px;
+	padding: 20px;
+
+}
+
+.card {
+	height: 160px;
+	width: 196px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 7px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	margin-left: 40px;
+	margin-top: 20px;
+	background-color: white;
+	margin-right: -3px;
+	cursor: pointer;
+}
+.card img {
+	width: 200px;
+	height: 100px;
+	border-radius: 15px 15px 0px 0px;
+	object-fit: cover;
+	margin-left: -2px;
+	margin-top: -2px;
+}
+
+.card1 .area {
+	font-weight:bolder;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card1 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+
+}
+
+.card2 .area {
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card2 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.card3 .area {
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card3 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.card4 .area {
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card4 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.card5 .area {
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card5 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.card6 .area {
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.card6 .price {
+	display: block;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.star-container {
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.star {
+	font-size: 10px;
+	/* Adjust the size of the stars */
+	color: #0065fc;
+}
+
+.grey-star {
+	font-size: 10px;
+	/* Adjust the size of the stars */
+	color: #f2f2f2;
+}
+
+.second-column-title {
+	font-size: 20px;
+}
+
+.show-more-link {
+	display: block;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-weight: 900;
+}
+
+.star2 {
+	position: relative;
+	right: 0px;
+	top: 20px;
+	font-size: 20px;
+}
+
+.item2 span {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 33px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 20px;
+	margin: auto;
+	width: 80%;
+}
+
+.popularcard {
+	display: flex;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 20px 20px 20px 20px;
+	height: 110px;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: white;
+	margin-left: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+
+.popularcard img {
+	width: 120px;
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.card-content span {
+	position: relative;
+	right: 30px;
+	font-size: 15px;
+	bottom: 40px;
+	display: block;
+}
+
+.card-content .price {
+	font-size: 13px;
+	font-weight: 400;
+	position: relative;
+	bottom: 60px;
+}
+
+.popularcard .star-container {
+	position: relative;
+	bottom: 20px;
+	right: 5px;
+}
+
+.card-2 .star-container {
+	position: relative;
+	bottom: 40px;
+}
+
+.card-2 .price {
+	position: relative;
+	bottom: 67px;
+}
+
+.card-3 .hotel-name {
+	max-width: 150px;
+}
+.card-content{
+	margin: 5px;
+}
+.card-content .hotel-name{
+	font-size: 14px;
+}
+.card-3 .star-container {
+	position: relative;
+	bottom: 40px;
+}
+
+.card-3 .price {
+	position: relative;
+	bottom: 67px;
+}
+
+/**/

@@ -1,0 +1,49 @@
+/*nav */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin-top: 11px;
+}
+  
+nav img{
+    width:40%;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 37px;
+}
+
+/*remove the links*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right:68px;
+}
+
+/* this is put spaces between the two links*/
+.nav-links li{
+margin-left:35px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    border-top: 2px solid transparent; /* Add a transparent border-top initially */
+    padding-top: 35px; /* Adjust the padding-top as needed */
+    color: black;
+  }
+
+.nav-links li a:hover {
+    border-top-color: #0065FC;/* Change the border color on hover */
+    color:#0065FC;
+    transition: all 0.1s ease-in ;
+}
+
+
+/*nav */
